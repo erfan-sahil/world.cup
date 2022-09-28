@@ -74,7 +74,7 @@ body{font-family: 'Poppins', sans-serif;margin: 0px;}
 .transfer{font-weight: bolder;font-size: larger;padding-left: 47px;}
 
 .middle-part{display: grid;grid-template-columns: repeat(4,1fr);height:646px ;width: 1321px;padding-top:100px;padding-left: 270px;}
-.transfer-1{width: 312px;height: 242px;box-shadow: 1px 1px rgba(190, 190, 190, 0.973);margin-bottom: 40px;border-radius: 10px;}
+.transfer-1{width: 312px;height: 242px;box-shadow: 1px 1px 1px 1px rgba(190, 190, 190, 0.973);margin-bottom: 40px;border-radius: 10px;}
 .blog-img img{padding-top: 10px; height:56px ;width:93px ;}
 .transfer-button{ padding-top: 15px ;padding-bottom: 15px;}
 .transfer-description{padding-left: 65px;padding-bottom: 15px;}
@@ -84,3 +84,7 @@ body{font-family: 'Poppins', sans-serif;margin: 0px;}
 .blog-img{display: flex;margin-left: 30px;margin-top: 25px;}
 
 #none{visibility: hidden;}
+
+@media screen and (max-width:776px) {.middle-part{grid-template-columns: repeat(2,1fr);} .top-container{width: 100%;}
+    
+}

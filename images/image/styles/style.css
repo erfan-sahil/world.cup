@@ -35,7 +35,7 @@ body{font-family: 'Poppins', sans-serif;margin: 0px;}
 .transfer{border: #161616 1px solid;padding-top: 5px ;padding-left: 10px; padding-bottom: 5px;padding-right: 10px;}
 
 .middle-part{display: grid;grid-template-columns: repeat(4,1fr);height:646px ;width: 1321px;padding-top:100px;padding-left: 270px;}
-.transfer-1{width: 312px;height: 362px;box-shadow: 1px 1px rgba(190, 190, 190, 0.973);margin-bottom: 40px;border-radius: 10px;}
+.transfer-1{width: 312px;height: 362px;box-shadow: 1px 1px 1px 1px rgba(190, 190, 190, 0.973);margin-bottom: 40px;border-radius: 10px;}
 .blog-img img{padding-top: 10px;}
 .transfer-button{ padding-top: 15px ;padding-bottom: 15px;}
 .transfer-description{font-weight: 800;}
@@ -60,6 +60,12 @@ body{font-family: 'Poppins', sans-serif;margin: 0px;}
   .anchor {text-decoration: none;gap: 40px;color: white;padding-right: 50px;}
 
   .footer-anchor{display: flex;justify-content: center;padding-top: 20px;}
+
+  .extra{padding-left: 10px;padding-bottom: 5px;}
+
+  .h{gap: 15px;}
+  
+  .com{padding-right: 10px;margin-right: 10px;}
 
   /* footer-part */
 
